@@ -1,0 +1,12 @@
+auth:
+  type: DISABLED
+kafka:
+  clusters:
+  - bootstrapServers: kafka:9099
+    ksqldbServer: http://ksqldb-server:8088
+    name: kafka
+    properties: {}
+    readOnly: false
+rbac:
+  roles: []
+webclient: {}
